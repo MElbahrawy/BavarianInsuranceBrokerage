@@ -1,0 +1,6 @@
+header {
+  background-color: var(--main-color);
+}
+header .main-logo {
+  height: 60px !important;
+}
