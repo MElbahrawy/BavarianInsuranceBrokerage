@@ -1,0 +1,6 @@
+footer img {
+  width: 100%;
+}
+footer li a:hover {
+  color: var(--secondary-color);
+}

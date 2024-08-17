@@ -6,7 +6,7 @@ export default function TopBar() {
   return (
     <div className="text-light p-2">
       <Container className="d-flex justify-content-between align-items-center">
-        <ul className="gap-4 m-0 p-0">
+        <ul className="gap-4 m-0 p-0 d-flex">
           <li>
             <a href="#">
               <i class="fa-brands fa-facebook-f"></i>

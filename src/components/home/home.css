@@ -1,0 +1,110 @@
+#hero {
+  background-color: #e9ecef;
+  min-height: calc(80vh - 126px);
+}
+#hero img {
+  width: 100%;
+  object-fit: contain;
+  max-height: 435px;
+  animation: smoothBounceBall 1s alternate infinite;
+  -webkit-animation: smoothBounceBall 1s alternate infinite;
+}
+@keyframes smoothBounceBall {
+  from {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 20px, 0);
+    -webkit-transform: translate3d(0, 20px, 0);
+    -moz-transform: translate3d(0, 20px, 0);
+    -ms-transform: translate3d(0, 20px, 0);
+    -o-transform: translate3d(0, 20px, 0);
+  }
+}
+.curved {
+  position: relative;
+  background: #e9ecef;
+  height: 20vh;
+  border-bottom-left-radius: 50% 60%;
+  border-bottom-right-radius: 50% 60%;
+}
+.services-card {
+  height: 300px;
+}
+.services-card:hover {
+  border: 2px solid;
+  border-color: var(--secondary-color);
+}
+@media (max-width: 760px) {
+  .services-card {
+    height: 320px;
+  }
+}
+@media (max-width: 464px) {
+  .services-card {
+    height: 280px;
+  }
+}
+.services-icon {
+  font-size: 80px;
+  transition: all 0.2s 0s linear;
+  -webkit-transition: all 0.2s 0s linear;
+  -moz-transition: all 0.2s 0s linear;
+  -ms-transition: all 0.2s 0s linear;
+  -o-transition: all 0.2s 0s linear;
+  opacity: 0.2;
+}
+.services-card:hover .services-icon {
+  color: var(--secondary-color) !important;
+  opacity: 0.9;
+}
+.services-card p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3; /* Number of lines to show before the ellipsis */
+  max-width: 100%;
+}
+.custom-dot-list-style button {
+  border-color: var(--secondary-color);
+}
+.react-multi-carousel-dot--active button {
+  background-color: var(--secondary-color) !important;
+}
+.companies-section > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+}
+#about-section {
+  background-image: url("../../assets/images/Brand\ Book\ BIB_page-0025.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#about-section .container {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#application-section {
+  overflow: hidden;
+}
+#application-section .d-flex img {
+  height: 40px;
+}
+#application-section .screen {
+  display: flex;
+}
+#application-section .screen img {
+  margin-bottom: -50px;
+  max-height: 360px;
+}

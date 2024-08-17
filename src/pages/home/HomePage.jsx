@@ -1,12 +1,19 @@
 import React from "react";
-import Slider from "../../components/utilities/Slider";
 import Persons from "../../components/home/Persons";
+import Companies from "../../components/home/Companies";
+import About from "../../components/home/About";
+import Application from "../../components/home/Application";
+import Hero from "../../components/home/Hero";
 
 export default function HomePage() {
   return (
     <div>
-      <Slider />
+      <Hero />
+      <section class="curved"></section>
       <Persons />
+      <Companies />
+      <About />
+      <Application />
     </div>
   );
 }
