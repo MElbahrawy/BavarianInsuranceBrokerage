@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className="p-5 main-background text-light">
       <Container>
-        <Row className="gap-lg-4 gap-md-2 gap-sm-5 justify-content-evenly">
+        <Row className="gap-lg-4 gap-md-2 gap-sm-5 justify-content-between">
           <Col lg={4} md={6} sm={12}>
             <CompanyCol />
           </Col>
