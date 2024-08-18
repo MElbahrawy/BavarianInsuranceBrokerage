@@ -12,6 +12,7 @@ export default function Persons() {
       label: "تأمينات",
       title: "الحوادث الشخصية",
       icon: "fa-solid fa-person-falling-burst",
+      link: "/Medical-Insurance",
       description:
         "يمكن أن تحدث حوادث غير متوقعه مهما كنت حذرا ، قد تضع نفسك وعائلتك في خطر كبير حيث توفر الوثيقة.",
     },
@@ -19,6 +20,7 @@ export default function Persons() {
       label: "تأمين",
       title: "حماية الأسره",
       icon: "fa-solid fa-people-roof",
+      link: "/Medical-Insurance",
       description:
         "يغطي تأمين حماية الاسرة المساكن الخاصة بما في ذلك محتوياتها وغيرها من المخاطر العرضية ضد المخاطر الرئيسية.",
     },
@@ -26,6 +28,7 @@ export default function Persons() {
       label: "التأمين",
       title: "التكميلي علي السيارات",
       icon: "fa-solid fa-car-burst",
+      link: "/Medical-Insurance",
       description:
         "مع الزيادة المضطردة فى عدد السيارات و ازدياد عدد حوادث الطرق مما يتسبب فى وقوع خسائر مادية فادحة",
     },
@@ -33,6 +36,7 @@ export default function Persons() {
       label: "التأمين",
       title: "علي الحياه",
       icon: "fa-solid fa-hand-holding-droplet",
+      link: "/Medical-Insurance",
       description:
         "تتعهد شركة التأمين بدفع مبلغ التامين إلى المستفيد المحدد فى العقد فى حالة وفاة المؤمن عليه خلال مدة العقد.",
     },
@@ -40,6 +44,7 @@ export default function Persons() {
       label: "التأمين",
       title: "علي السفر",
       icon: "fa-solid fa-plane",
+      link: "/Medical-Insurance",
       description:
         "التأمين على السفر هو خطة مصممة لتغطية التكاليف غير المتوقعة التي قد تنشأ عندما تسافر إلى أي وجهتك.",
     },
@@ -47,6 +52,7 @@ export default function Persons() {
       label: "التأمين",
       title: "الطبي",
       icon: "fa-solid fa-house-medical",
+      link: "/Medical-Insurance",
       description:
         "يوفر هذا النوع من التأمين الحماية الطبية للمؤمن عليهم سواء كانوا أفراد أو شركات أو مؤسسات أو جمعيات بنظام.",
     },
@@ -71,8 +77,7 @@ export default function Persons() {
         <Heading title="للافراد" />
         <Carousel
           responsive={responsive}
-          infinite={true}
-          removeArrowOnDeviceType={["mobile"]}
+          infinite={false}
           containerClass="carousel-container"
           rtl={true}
           showDots={true}
@@ -85,6 +90,7 @@ export default function Persons() {
               title={service.title}
               icon={service.icon}
               description={service.description}
+              link={service.link}
             />
           ))}
         </Carousel>

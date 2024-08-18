@@ -6,7 +6,7 @@ import MainBar from "./MainBar";
 
 export default function Header() {
   return (
-    <header>
+    <header className="shadow">
       <TopBar />
       <MainBar />
     </header>

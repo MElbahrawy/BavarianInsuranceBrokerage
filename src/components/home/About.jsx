@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -37,7 +38,7 @@ export default function About() {
         </Row>
 
         <Button variant="warning" className="secondary-background text-light">
-          اعرف عننا اكتر
+          <Link to={"/About"}>اعرف عننا اكتر</Link>
         </Button>
       </Container>
     </section>

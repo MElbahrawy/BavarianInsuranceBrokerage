@@ -4,3 +4,20 @@ header {
 header .main-logo {
   height: 60px !important;
 }
+.nav-link {
+  font-weight: bold;
+}
+.nav-link:active,
+.nav-link:focus {
+  color: var(--secondary-color) !important;
+}
+header i:hover {
+  color: var(--secondary-color);
+}
+.dropdown-menu {
+  min-width: auto !important;
+}
+
+#navbarScrollingDropdown {
+  width: fit-content;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function PolicyCol() {
   return (
@@ -6,13 +7,13 @@ export default function PolicyCol() {
       <h3 className="mt-5 mb-4">تواصل معنا</h3>
       <ul className="p-0">
         <li className="mb-3">
-          <a href="">الشروط والاحكام</a>
+          <Link to={"/"}>الشروط والاحكام</Link>
         </li>
         <li className="mb-3">
-          <a href="">سياسة الخصوصية</a>
+          <Link to={"/"}>سياسة الخصوصية</Link>
         </li>
         <li className="mb-3">
-          <a href="">سياسة الاستخدام</a>
+          <Link to={"/"}>سياسة الاستخدام</Link>
         </li>
       </ul>
     </>

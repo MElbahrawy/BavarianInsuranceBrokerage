@@ -7,7 +7,12 @@ export default function ContactCol() {
       <ul className="p-0">
         <li className="d-flex gap-2 align-items-center mb-3">
           <i class="fa-solid fa-location-dot"></i>
-          <a href="" className="m-0">
+          <a
+            href="https://maps.app.goo.gl/CRpUkFuZ6d8iZsez8"
+            target="_blank"
+            rel="noreferrer"
+            className="m-0"
+          >
             محور السادات - البنفسج 5 - فيلا رقم 74 - التجمع الاول - القاهرة
           </a>
         </li>
@@ -43,7 +48,7 @@ export default function ContactCol() {
           <p className="m-0">
             رقم الواتس اب:
             <a
-              href="http://wa.me/01004222287"
+              href="http://wa.me/201004222287"
               target="_blank"
               rel="noreferrer"
               className="me-1"

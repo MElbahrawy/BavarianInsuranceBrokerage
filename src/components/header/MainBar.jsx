@@ -1,67 +1,101 @@
 import React from "react";
 import { Container, Image, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Logo from "../../assets/images/NewLogo.png";
+import { Link } from "react-router-dom";
 export default function MainBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">
-          <img src={Logo} alt="" className="main-logo" />
+        <Navbar.Brand>
+          <Link to="/">
+            <img src={Logo} alt="" className="main-logo" />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-5">
-            <Nav.Link href="#home">الرئيسيه</Nav.Link>
-
+            <Nav.Link href="">
+              <Link to="/">الرئيسيه</Link>
+            </Nav.Link>
             <NavDropdown title="الافراد " id="basic-nav-dropdown">
               <NavDropdown.Item href="#">
-                تأمين الحوادث الشخصية
+                <Link to="/Medical-Insurance">تأمين الحوادث الشخصية</Link>
               </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#">تأمين حماية الاسرة</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                التأمين التكاملي علي السيارات
+                <Link to="/Medical-Insurance">تأمين حماية الاسرة</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#">التأمين علي السفر</NavDropdown.Item>
+              <NavDropdown.Item href="#">
+                <Link to="/Medical-Insurance">
+                  التأمين التكاملي علي السيارات
+                </Link>
+              </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#">التأمين علي الحياة</NavDropdown.Item>
+              <NavDropdown.Item href="#">
+                <Link to="/Medical-Insurance">التأمين علي السفر</Link>
+              </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#">التأمين الطبي</NavDropdown.Item>
+              <NavDropdown.Item href="#">
+                <Link to="/Medical-Insurance">التأمين علي الحياة</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#">
+                <Link to="/Medical-Insurance">التأمين الطبي</Link>
+              </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="الشركات " id="basic-nav-dropdown">
-              <NavDropdown.Item href="#">تأمين الممتلكات</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#">التأمين الهندسي</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#">التأمين البحري</NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                التأمين التكميلي علي السيارات
+                <Link to="/Medical-Insurance">تأمين الممتلكات</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                تأمينات الحوادث العامة
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#">تأمين الطاقة</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#">التأمين علي الحياة</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#">التأمين الطبي</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#">
-                التقاعد الجماعي للموظفين
+                <Link to="/Medical-Insurance">التأمين الهندسي</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                برنامج العمليات الجراحية
+                <Link to="/Medical-Insurance">التأمين البحري</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#">
+                <Link to="/Medical-Insurance">
+                  التأمين التكميلي علي السيارات
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#">
+                <Link to="/Medical-Insurance">تأمينات الحوادث العامة</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#">
+                <Link to="/Medical-Insurance">تأمين الطاقة</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#">
+                <Link to="/Medical-Insurance">التأمين علي الحياة</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#">
+                <Link to="/Medical-Insurance">التأمين الطبي</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#">
+                <Link to="/Medical-Insurance">التقاعد الجماعي للموظفين</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#">
+                <Link to="/Medical-Insurance">برنامج العمليات الجراحية</Link>
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">عن الشركة</Nav.Link>
-            <Nav.Link href="#link">التعويضات</Nav.Link>
-            <Nav.Link href="#link">اتصل بنا</Nav.Link>
+            <Nav.Link href="">
+              <Link to={"/About"}>عن الشركة</Link>
+            </Nav.Link>
+            <Nav.Link href="">
+              <Link to={"/Claims"}>التعويضات</Link>
+            </Nav.Link>
+            <Nav.Link href="">
+              <Link to={"/Contact"}>اتصل بنا</Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

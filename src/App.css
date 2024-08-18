@@ -1,6 +1,7 @@
 :root {
   --main-color: #1b1464;
   --secondary-color: #c9a437;
+  --transition: all 0.2s 0s linear;
 }
 * {
   font-family: "Cairo", sans-serif;

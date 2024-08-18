@@ -1,9 +1,12 @@
 import React from "react";
 import logo from "../../assets/images/NewLogo2.png";
+import { Link } from "react-router-dom";
 export default function CompanyCol() {
   return (
     <>
-      <img src={logo} alt="" className="mb-4" />
+      <Link to={"/"}>
+        <img src={logo} alt="" className="mb-4" />
+      </Link>
       <p>
         الشـــركة البـــــــافارية للوســــاطة التـــــأمينية ( Bavarian
         Insurance Brokerage BIB ) ( ش.م.م ) خاضعة لأحكام القانون رقم ( 159) لسنة

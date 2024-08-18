@@ -1,0 +1,14 @@
+#about-page .border {
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+#about-page .border:hover {
+  transform: translateY(-15px) scale(1.01);
+  -webkit-transform: translateY(-15px) scale(1.01);
+  -moz-transform: translateY(-15px) scale(1.01);
+  -ms-transform: translateY(-15px) scale(1.01);
+  -o-transform: translateY(-15px) scale(1.01);
+}

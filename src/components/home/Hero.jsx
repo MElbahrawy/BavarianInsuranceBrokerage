@@ -35,8 +35,8 @@ export default function Hero() {
               repeat={Infinity}
             />
           </Col>
-          <Col md={5}>
-            <img src={hero} className="" alt="" />
+          <Col md={5} className="justify-content-center d-flex">
+            <img src={hero} loading="eager" className="" alt="" />
           </Col>
         </Row>
       </Container>

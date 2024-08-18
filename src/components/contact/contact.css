@@ -1,0 +1,5 @@
+#contact-page a {
+  display: block;
+  color: var(--secondary-color);
+  margin-top: 20px;
+}
