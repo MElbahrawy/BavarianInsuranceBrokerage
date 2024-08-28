@@ -5,10 +5,11 @@ import "./footer.css";
 import ContactCol from "./ContactCol";
 import PolicyCol from "./PolicyCol";
 import SiteMapCol from "./SiteMapCol";
+import CopyRight from "./CopyRight";
 export default function Footer() {
   return (
-    <footer className="p-5 main-background text-light">
-      <Container>
+    <footer className="main-background text-light">
+      <Container className="p-5">
         <Row className="gap-lg-4 gap-md-2 gap-sm-5 justify-content-between">
           <Col lg={4} md={6} sm={12}>
             <CompanyCol />
@@ -24,6 +25,7 @@ export default function Footer() {
           </Col>
         </Row>
       </Container>
+      <CopyRight />
     </footer>
   );
 }
