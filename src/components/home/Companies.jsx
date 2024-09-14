@@ -11,7 +11,7 @@ export default function Companies() {
       label: "تأمين",
       title: "الممتلكات",
       icon: "fa-solid fa-people-carry-box",
-      link: "Medical-Insurance",
+      link: "Demo",
       description:
         "هذه الوثيقة تعد الوثيقة الاساسية المصممه لتغطية الممتلكات المؤمن عليها بموجب الوثيقة.",
     },
@@ -19,14 +19,14 @@ export default function Companies() {
       label: "التأمين",
       title: "الهندسى",
       icon: "fa-solid fa-building-user",
-      link: "Medical-Insurance",
+      link: "Demo",
       description:
         "الأضرار المادية يغطي هذا القسم الخسائر أو الأضرار التي لحقت بأعمال المقاولات وغيرها.",
     },
     {
       label: "التأمين",
       title: "التكميلي علي السيارات",
-      link: "Medical-Insurance",
+      link: "Demo",
       icon: "fa-solid fa-car-burst",
       description:
         "مع الزيادة المضطردة فى عدد السيارات و ازدياد عدد حوادث الطرق مما يتسبب فى وقوع خسائر مادية مع الزيادة المضطردة فى عدد السيارات و ازدياد عدد حوادث الطرق مما يتسبب فى وقوع خسائر",
@@ -35,7 +35,7 @@ export default function Companies() {
       label: "التأمين",
       title: "علي الحياه",
       icon: "fa-solid fa-hand-holding-droplet",
-      link: "Medical-Insurance",
+      link: "Demo",
       description:
         "تحتاج الشركات والمنظمات التقدمية لتقديم مجموعة تنافسية من المزايا الموظفين. من خلال توفير باقات.",
     },
@@ -43,7 +43,7 @@ export default function Companies() {
       label: "التأمين",
       title: "الطبي",
       icon: "fa-solid fa-house-medical",
-      link: "Medical-Insurance",
+      link: "Demo",
       description:
         "تحتاج الشركات والمنظمات التقدمية لتقديم مجموعة تنافسية من المزايا للموظفين. من خلال توفير باقات.",
     },
@@ -51,7 +51,7 @@ export default function Companies() {
       label: "التأمين",
       title: "البحري",
       icon: "fa-solid fa-ship",
-      link: "Medical-Insurance",
+      link: "Demo",
       description:
         "التأمين الذي يغطي نقل جميع أنواع البضائع بغض النظر عن طريقة نقلها ،سواء البحر او الجو.",
     },
@@ -59,7 +59,7 @@ export default function Companies() {
       label: "تأمينات",
       title: "الحوادث العامة",
       icon: "fa-solid fa-seedling",
-      link: "Medical-Insurance",
+      link: "Demo",
       description:
         "تغطي الوثيقة المسؤولية القانونية للمؤمن له عن الأضرار الماديه و أو الموت و الإصابات الشخصية.",
     },
@@ -67,7 +67,7 @@ export default function Companies() {
       label: "تأمين",
       title: "الطاقة",
       icon: "fa-solid fa-bolt",
-      link: "Medical-Insurance",
+      link: "Demo",
       description:
         "تغطى الخسارة المادية أو الضرر المادي الذي يحدث للممتلكات المؤمن عليها التي تحتاج إلى إصلاح.",
     },
@@ -75,7 +75,7 @@ export default function Companies() {
       label: "التقاعد",
       title: "الجماعي للموظفين",
       icon: "fa-solid fa-users-line",
-      link: "Medical-Insurance",
+      link: "Demo",
       description:
         "وفر لموظفيك المعاش الذى يستحقونه بعد سنوات من العمل فى شركتك، وامنحهم سنين التقاعد الذهبية.",
     },
@@ -83,7 +83,7 @@ export default function Companies() {
       label: "برنامج",
       title: "العمليات الجراحية",
       icon: "fa-solid fa-user-doctor",
-      link: "Medical-Insurance",
+      link: "Demo",
       description:
         "برنامج العمليات الجراحية هو الحل الطبي الأنسب لتوفير أفضل رعاية لموظفيك وأسرهم فى حال تطلبت حالة.",
     },

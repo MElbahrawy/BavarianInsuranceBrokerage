@@ -19,25 +19,23 @@ export default function MainBar() {
             </Nav.Link>
             <NavDropdown title="الافراد " id="basic-nav-dropdown">
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">تأمين الحوادث الشخصية</Link>
+                <Link to="/Demo">تأمين الحوادث الشخصية</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">تأمين حماية الاسرة</Link>
+                <Link to="/Demo">تأمين حماية الاسرة</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">
-                  التأمين التكاملي علي السيارات
-                </Link>
+                <Link to="/Demo">التأمين التكاملي علي السيارات</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">التأمين علي السفر</Link>
+                <Link to="/Demo">التأمين علي السفر</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">التأمين علي الحياة</Link>
+                <Link to="/Demo">التأمين علي الحياة</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
@@ -46,45 +44,43 @@ export default function MainBar() {
             </NavDropdown>
             <NavDropdown title="الشركات " id="basic-nav-dropdown">
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">تأمين الممتلكات</Link>
+                <Link to="/Demo">تأمين الممتلكات</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">التأمين الهندسي</Link>
+                <Link to="/Demo">التأمين الهندسي</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">التأمين البحري</Link>
+                <Link to="/Demo">التأمين البحري</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">
-                  التأمين التكميلي علي السيارات
-                </Link>
+                <Link to="/Demo">التأمين التكميلي علي السيارات</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">تأمينات الحوادث العامة</Link>
+                <Link to="/Demo">تأمينات الحوادث العامة</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">تأمين الطاقة</Link>
+                <Link to="/Demo">تأمين الطاقة</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">التأمين علي الحياة</Link>
+                <Link to="/Demo">التأمين علي الحياة</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">التأمين الطبي</Link>
+                <Link to="/Demo">التأمين الطبي</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">التقاعد الجماعي للموظفين</Link>
+                <Link to="/Demo">التقاعد الجماعي للموظفين</Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
-                <Link to="/Medical-Insurance">برنامج العمليات الجراحية</Link>
+                <Link to="/Demo">برنامج العمليات الجراحية</Link>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="">

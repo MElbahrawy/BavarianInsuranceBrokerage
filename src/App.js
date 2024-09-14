@@ -12,6 +12,7 @@ import ScrollToTop from "./components/utilities/ScrollToTop";
 import ContactPage from "./pages/contact/ContactPage";
 import AboutPage from "./pages/about/AboutPage";
 import ClaimsPage from "./pages/claims/ClaimsPage";
+import DemoPage from "./pages/services/DemoPage";
 function App() {
   return (
     <div className="App bg-body-tertiary">
@@ -20,6 +21,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/Medical-Insurance" element={<MedicalPage />} />
+        <Route path="/Demo" element={<DemoPage />} />
         <Route path="/Contact" element={<ContactPage />} />
         <Route path="/About" element={<AboutPage />} />
         <Route path="/Claims" element={<ClaimsPage />} />
