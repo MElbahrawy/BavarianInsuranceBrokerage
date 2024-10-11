@@ -104,7 +104,6 @@ export default function Companies() {
   };
   return (
     <section className="companies-section position-relative overflow-hidden bg-body-secondary py-3">
-      <img src={pattern} alt="" />
       <Container className="">
         <Heading title="للشركات" />
         <Carousel

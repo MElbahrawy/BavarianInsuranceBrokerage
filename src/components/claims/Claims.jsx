@@ -43,18 +43,18 @@ export default function Claims() {
               <li>
                 <span className="ms-2 fw-bold">الموقع الالكترونى:</span>
                 <a
-                  href="https://www.fra.gov.eg"
+                  href="https://www.xxx.eg"
                   target="_blank"
                   rel="noreferrer"
                   className=" secondary-color"
                 >
-                  www.fra.gov.eg
+                  www.xxx.eg
                 </a>
               </li>
               <li>
                 <span className="ms-2 fw-bold">رقم الهاتف:</span>
-                <a href="tel:0235345350" className=" secondary-color">
-                  0235345350
+                <a href="tel:XXXXXXXXXX" className=" secondary-color">
+                  XXXXXXXXXX
                 </a>
               </li>
             </ul>

@@ -10,9 +10,9 @@ export default function CopyRight() {
         target="_blank"
         rel="noreferrer"
       >
-        Mohamed El Bahrawy
+        MB-Dev
       </a>{" "}
-      جميع الحقوق محفوظة 2024 &copy; الشركة البافارية للوساطة التأمينية
+      جميع الحقوق محفوظة 2024 &copy; شركة الوساطة التأمينية
     </div>
   );
 }

@@ -8,29 +8,17 @@ export default function TopBar() {
       <Container className="d-flex justify-content-between align-items-center">
         <ul className="gap-4 m-0 p-0 d-flex">
           <li>
-            <a
-              href="https://www.facebook.com/bavarian.insurance.brokerage"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="#">
               <i class="fa-brands fa-facebook-f"></i>
             </a>
           </li>
           <li>
-            <a
-              href="https://www.linkedin.com/company/bavarian-insurance-brokerage-bib/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="#">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </li>
           <li>
-            <a
-              href="https://www.instagram.com/bavarian_insurance.brokerage/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="#">
               <i class="fa-brands fa-instagram"></i>
             </a>
           </li>

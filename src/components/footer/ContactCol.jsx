@@ -8,20 +8,20 @@ export default function ContactCol() {
         <li className="d-flex gap-2 align-items-center mb-3">
           <i class="fa-solid fa-location-dot"></i>
           <a
-            href="https://maps.app.goo.gl/CRpUkFuZ6d8iZsez8"
+            href="https://maps.app.goo.gl/bK5zsGHd5RrBx4dR9"
             target="_blank"
             rel="noreferrer"
             className="m-0"
           >
-            محور السادات - البنفسج 5 - فيلا رقم 74 - التجمع الاول - القاهرة
+            XXX - القاهرة
           </a>
         </li>
         <li className="d-flex gap-2 align-items-center mb-3">
           <i class="fa-solid fa-phone-volume"></i>
           <p className="m-0">
             الخط الساخن:
-            <a href="tel:16543" className="me-1">
-              16543
+            <a href="tel:XXXXX" className="me-1">
+              XXXXX
             </a>
           </p>
         </li>
@@ -29,8 +29,8 @@ export default function ContactCol() {
           <i class="fa-solid fa-phone-volume"></i>
           <p className="m-0">
             رقم الهاتف:
-            <a href="tel:0223077523" className="me-1">
-              02/2307752/3
+            <a href="tel:XXXXXXXXXX" className="me-1">
+              XX/XXXXXXX/X
             </a>
           </p>
         </li>
@@ -38,8 +38,8 @@ export default function ContactCol() {
           <i class="fa-solid fa-envelope"></i>
           <p className="m-0">
             البريد الالكتروني:
-            <a href="mailto:info@bib-eg" className="me-1">
-              info@bib-eg.com
+            <a href="mailto:info@X" className="me-1">
+              info@X.com
             </a>
           </p>
         </li>
@@ -48,12 +48,12 @@ export default function ContactCol() {
           <p className="m-0">
             رقم الواتس اب:
             <a
-              href="http://wa.me/201004222287"
+              href="http://wa.me/XXXXXXXXXXXX"
               target="_blank"
               rel="noreferrer"
               className="me-1"
             >
-              01004222287
+              XXXXXXXXXXX
             </a>
           </p>
         </li>

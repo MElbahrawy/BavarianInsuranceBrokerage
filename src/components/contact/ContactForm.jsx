@@ -29,8 +29,9 @@ export default function ContactForm() {
         </Form.Group>
         <Button
           className="secondary-background text-light my-4 px-4 py-2"
-          variant="warning"
+          variant="dark"
           type="submit"
+          disabled
         >
           أتصل بي الأن
         </Button>
