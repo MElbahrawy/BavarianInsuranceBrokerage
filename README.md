@@ -1,2 +1,2 @@
-# BavarianInsuranceBrokerage
- Bavarian Insurance Brokerage
+# InsuranceBrokerage
+Insurance Brokerage
