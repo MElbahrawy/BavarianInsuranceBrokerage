@@ -4,7 +4,6 @@ import { Container } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Heading from "../utilities/Heading";
-import pattern from "../../assets/images/Pattern.png";
 export default function Companies() {
   const services = [
     {
